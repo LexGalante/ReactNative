@@ -1,0 +1,40 @@
+{
+	"name": "mobguarda",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"base-64": "^0.1.0",
+		"lodash": "^4.17.10",
+		"moment": "^2.22.2",
+		"moment-timezone": "^0.5.21",
+		"react": "^16.0.0-beta.5",
+		"react-moment": "^0.7.9",
+		"react-native": "^0.49.0",
+		"react-native-calendars": "^1.20.0",
+		"react-native-datepicker": "^1.7.2",
+		"react-native-elements": "^0.19.1",
+		"react-native-responsive-fontsize": "^0.1.2",
+		"react-native-router-flux": "^4.0.1",
+		"react-native-tab-view": "^1.0.2",
+		"react-native-vector-icons": "^5.0.0",
+		"react-redux": "^5.0.7",
+		"redux": "^4.0.0",
+		"redux-thunk": "^2.3.0",
+		"validate.js": "^0.12.0"
+	},
+	"devDependencies": {
+		"babel-jest": "23.4.2",
+		"babel-preset-react-native": "4.0.0",
+		"eslint-config-rallycoding": "^3.2.0",
+		"jest": "23.5.0",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
